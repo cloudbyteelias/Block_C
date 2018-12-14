@@ -2,7 +2,7 @@
 Blockchain em c. 
 # A aplicação está em fase de desonvolvimento.
 # Conta com algumas funcionalidades basicas. 
-# Em breve atualisações......
+# Em breve atualizações......
 
 
 ![XHTML válido](https://github.com/cloudbyteelias/Block_C/blob/master/1.png).
