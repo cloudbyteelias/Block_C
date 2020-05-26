@@ -12,17 +12,8 @@ void mostraHash();
 
 int count;
 
+//lembre de colocar p -lcrypto
 
-////////////////////////////////////////////
-//                                        //
-//     BLOCKCHAIN  V.0.0.1                //     //quando compilar favor usar gcc.
-//           CRIADO POR->                 //     // como compilar simples va na porra de um terminal e digite gcc BlockCrazy.c -o qualquer coisa -lycrypto
-//                 ELIAS JESUS MORAES     //     // lembre de colocar p -lcrypto
-//                                        //     // deixe uma estrelinha ai galera
-//                                        //  
-//                                        //
-//                                        //
-////////////////////////////////////////////
 struct blocos{
 unsigned char proximohash[SHA256_DIGEST_LENGTH];
 int blocodata;
