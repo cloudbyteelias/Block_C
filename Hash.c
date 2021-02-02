@@ -12,7 +12,7 @@ void mostraHash();
 
 int count;
 
-//lembre de colocar p -lcrypto
+// p -lcrypto
 
 struct blocos{
 unsigned char proximohash[SHA256_DIGEST_LENGTH];
@@ -129,11 +129,7 @@ void alteraBlocos(int n, int newdata){
                         printf("\n");
                     }
                       
-                        // não sei pq fiz essa merda  
-                        //if(!comparaHash(SHA256(toString(*prox),sizeof(*prox),NULL),atual->proximohash)){
-                            //mostraHash(SHA256(toString(*prox),sizeof(*prox),atual->proximohash),SHA256_DIGEST_LENGTH);
-                            //printf("\n");
-                        //}
+                        
 
 
                         }
